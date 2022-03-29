@@ -1,0 +1,43 @@
+body {
+  background-image: url("rps.jpg");
+}
+.container {
+  width: 300px;
+  margin-left: 40%;
+}
+button {
+  margin-top: 5%;
+  width: 100%;
+  font-size: 60px;
+  padding: 20px;
+  margin-left: 5%;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  background-color: #e0ffcd;
+  border-radius: 8px;
+  border: 4px solid #ffebbb;
+}
+button:hover {
+  background-color: #fdffcd;
+  cursor: pointer;
+}
+p {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+
+  border-radius: 8px;
+  border: 4px solid #ffebbb;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Goudy Bookletter 1911", sans-serif;
+  background-color: #ffcab0;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+    margin-left: 0;
+  }
+  button {
+    margin-left: 0;
+  }
+}
