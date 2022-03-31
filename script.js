@@ -1,6 +1,7 @@
-//Create a webpage that takes in a user's age and name.
-//If the user is over 18 they should receive a personalised welcome message, and if they are under 18 they should receive a message to leave.
-//However, if their name is "Sam", and they are over 18, they should receive a message telling them that they are barred!
+/*Using if statements, create a rock, paper, scissors game.
+You may use any method of user input and any method of visualisation (alerts, document.getElement etc),
+as you will be marked on the JavaScript logic around your if statements*/
+
 var userGo;
 var result;
 var compGo;
@@ -25,9 +26,9 @@ function rockPaperScissors() {
   } else if (compGo == 2) {
     compGuess = "scissors";
   }
-  //after the comp selects an option we always run the emoji setter to assign an emoji to the computer guess
+  //after the compGuess is computed, we always run the emoji setter to assign an emoji to the computer guess
   setCompEmoji();
-  //then we have nested if statements to assign a result
+  //then we have nested if statements to assign win, result or draw
   if (userGo == "rock") {
     if (compGuess == "scissors") {
       result = "win";
